@@ -1,0 +1,6 @@
+Documentacion USSD FLUTTER
+1_ Plugin USSD_SERVICE :> https://pub.dev/packages/ussd_service
+*PROBLEMT => https://github.com/vkammerer/ussd_service/issues/1
+****************************************************************
+2_https://medium.com/use-hover/automate-any-ussd-service-on-android-45aa9dd9dfa
+****************************************************************
