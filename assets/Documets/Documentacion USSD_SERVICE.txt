@@ -1,6 +1,9 @@
 Documentacion USSD FLUTTER
 1_ Plugin USSD_SERVICE :> https://pub.dev/packages/ussd_service
 *PROBLEMT => https://github.com/vkammerer/ussd_service/issues/1
-****************************************************************
+*SDK NO PERMIT MULTISTEPS USSD
+*Solution code JAVA ->  https://github-com.translate.goog/vkammerer/ussd_service/issues/1?_x_tr_sl=auto&_x_tr_tl=es&_x_tr_hl=en&_x_tr_pto=wapp#issuecomment-590003963
+*POSSIBLE SOLUTION-> https://pub.dev/packages/ussd_advanced
+**********************************************************************************************************************************************************************
 2_https://medium.com/use-hover/automate-any-ussd-service-on-android-45aa9dd9dfa
 ****************************************************************
