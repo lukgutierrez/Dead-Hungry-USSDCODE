@@ -31,20 +31,20 @@ class _HomePageState extends State<HomePage> {
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               ElevatedButton(
-                  child: Text("HUNGRY DEA"),
-                  onPressed: () async {
-                    String? _res = await UssdAdvanced.multisessionUssd(
-                        code: "*611*1*1#", subscriptionId: 1);
-                    setState(() {
-                      _response = _res;
-                    });
-                    //   String? _res2 = await UssdAdvanced.sendMessage('3');
-                    //   setState(() {
-                    //     _response = _res2;
-                    //   });
-                    //   await UssdAdvanced.cancelSession();
-                    // },
-                  }),
+                child: Text("HUNGRY DEA"),
+                onPressed: () async {
+                  String? _res = await UssdAdvanced.multisessionUssd(
+                      code: "*611*1*1#", subscriptionId: 1);
+                  setState(() {
+                    _response = _res;
+                  });
+                  String? _res2 = await UssdAdvanced.sendMessage('3');
+                  setState(() {
+                    _response = _res2;
+                  });
+                  await UssdAdvanced.cancelSession();
+                },
+              ),
             ],
           ),
           ElevatedButton(
@@ -59,6 +59,6 @@ class _HomePageState extends State<HomePage> {
 }
 
 _callNumber() async {
-  String number = "911";
+  String number = "*611*1*1#";
   await FlutterPhoneDirectCaller.callNumber(number);
 }
