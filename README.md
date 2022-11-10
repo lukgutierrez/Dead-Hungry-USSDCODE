@@ -1,4 +1,4 @@
-# dead_hungry_ussd
+# practice ussd
 
 A new Flutter project.
 
